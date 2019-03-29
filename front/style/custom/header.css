@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    /* flex-direction: column-reverse; */
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, .7);
+    height: 60px;
+    padding: 0 10%;
+}
+
+.header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nav__link{
+    font-size: 12px;
+    padding: 0 10px;
+    color: #bbb;
+}
+
+.nav__link:hover{
+    color: #fff;
+}
+
+.logo{
+    color: #fff;
+    font-size: 20px;
+}
+
+.nav{
+    position: relative;
+}
+
+.abs{
+    position: absolute;
+    top: 0px;
+    left:0;
+}
