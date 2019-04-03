@@ -5,12 +5,12 @@
   display:block;
   background: #232525;
   font-weight: 700;
-  font-family: "Poppins", Arial, sans-serif;
-
 }
+
 .header a{
   text-decoration: none;
 }
+
 .header-top{
   display: flex;
   justify-content: space-between;
@@ -18,11 +18,13 @@
   align-items: center;
   min-height: 100px;
 }
+
 .logo{
   color: #FFF;
   text-transform: uppercase;
   font-size: 24px;
 }
+
 .nav__link{
   color: #999;
   font-size: 15px;
@@ -30,18 +32,43 @@
   padding: 0 10px;
   font-weight: 400;
 }
+
 .nav__link:hover{
   color: #a2dc4d;
 }
+
+.nav__link{
+  position: relative;
+}
+
+.nav__link::after{
+  content: '';
+  display: block;
+  background: #FFF;
+  height: 2px;
+  width: 75%;
+  position: absolute;
+  bottom: -5px;
+  right: calc(50% - 37.5%);
+  transform: scale(0,0);
+  -webkit-transition: 0.5s;
+}
+
+.nav__link:hover::after{
+  transform: scale(1,1);
+}
+
 .nav__link_active{
   color: #a2dc4d;
 }
+
 .nav__link_bordered{
   color: #FFF;
   border: solid #a2dc4d 10px;
   background: #a2dc4d;
   border-radius: 30px;
 }
+
 .nav__link_bordered:hover{
   color:#FFF;
 }
@@ -79,7 +106,7 @@
 .button-group_button{
   background: transparent;
   color: #a2dc4d;
-  border-color: #a2dc4d;
+  border: 1px solid #a2dc4d;
   border-radius: 3px;
   text-align: center;
   padding: 13px 20px;
@@ -88,7 +115,7 @@
 .button-group_button:hover{
   background: #a2dc4d;
   color: #FFF;
-  
+
 }
 .header-bottom_img{
   width: 100%;

@@ -1,0 +1,11 @@
+@import url('vendor/reset.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+@import url('custom/common.css');
+
+@import url('custom/welcome.css');
+@import url('custom/about.css');
+@import url('custom/gallery.css');
+@import url('custom/statistics.css');
+@import url('custom/portfolio.css');
+@import url('custom/contact.css');

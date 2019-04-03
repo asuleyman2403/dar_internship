@@ -1,0 +1,49 @@
+#contact{
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../../images/portfolio/4.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+.contact_item{
+	display: flex;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.contact_item img{
+	width: 25px;
+	margin-right: 25px;
+}
+
+.contact_input, textarea{
+	background: none;
+	border: none;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	padding: 20px 0;
+	outline: none;
+	width: 100%;
+	font-size: 16px;
+}
+
+.contact_input::placeholder, textarea::placeholder{
+	color: #fff;
+	font-style: italic;
+}
+
+.contact_wrap{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact_wrap .contact_input{
+	width: 48%;
+}
+
+textarea{
+	height: 300px;
+	resize: vertical;
+}
