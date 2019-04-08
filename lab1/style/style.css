@@ -2,6 +2,7 @@
 @import url('./custom/header.css');
 @import url('./custom/work.css');
 @import url('./custom/gallery.css');
+@import url('./custom/accomplishments.css');
 body{
   font-family: "Poppins", Arial, sans-serif;
 }
