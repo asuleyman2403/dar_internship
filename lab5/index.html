@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+        <div action="" class = "input-form">
+          <label class = "input-form__label" >Enter your data to sign in: </label>
+          <input class = "input-form__login input"  id = "log" type="text" placeholder="Enter your login...">
+          <input class = "input-form__password input" id = "pass" type="password" placeholder="Enter your password...">
+          <label id = "response"></label>
+          <button class = "input-form__button btn" id = "submit-btn">Submit</button>
+        </div>
+        <div class = "data" id = "data">
+              <div class="student_info">
+                <div class="login-part">
+                    <input type="text" class = "data__login input" id = "login">
+                    <button id="changeLog" class = "btn">Change</button>
+                </div>
+                <div class="pass-part">
+                    <input type="text" class = "data__password input" id = "password">
+                    <button id="changePass" class = "btn">Change</button>
+                </div>
+                <div class="name-part">
+                    <input type="text" class = "data__name input" id = "name">
+                    <button id="changeName" class = "btn">Change</button>
+                </div>
+            </div>
+              <div class="student_constant_info">
+                  <h3 class = "data_gpa" id = "gpa"></h3>
+                  <div class="grades-part">
+                      <h2>Grades: </h2>
+                      <ol class = "grades" id = "grades"></ol>
+                      <h2 id = "average"></h2>
+                      <button id = "avg" class = "btn">Get Average</button>
+                  </div>
+              </div>
+                <div class="btn-part">
+                    <button class="exit btn" id = "exit">Log out</button>
+                    <button class="delete btn" id = "delete">Delete account</button>
+                </div>
+
+        </div>
+      <script src = "./script.js"></script>
+  </body>
+</html>

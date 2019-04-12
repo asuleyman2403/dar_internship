@@ -3,6 +3,7 @@
 @import url('./custom/work.css');
 @import url('./custom/gallery.css');
 @import url('./custom/accomplishments.css');
+@import url('./custom/blog.css');
 body{
   font-family: "Poppins", Arial, sans-serif;
 }
