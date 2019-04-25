@@ -24,9 +24,6 @@
   color: #333;
   text-align: center;
 }
-.work-header__main-title:hover{
-  font-size: 60px;
-}
 
 .work__paragraph{
   margin: 20px 0;
@@ -54,14 +51,10 @@
   justify-content: space-between;
 }
 
-
 .ico{
   margin: 20px 0;
   font-size: 80px;
   color: #333;
-}
-.ico:hover{
-  font-size: 100px;
 }
 
 .work-detail__title{
@@ -70,6 +63,4 @@
   color: #333;
   text-align: center;
 }
-.work-detail__title:hover{
-  font-size: 30px;
-}
+

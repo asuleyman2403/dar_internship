@@ -1,0 +1,36 @@
+.ToDoTask{
+    width: 80%;
+    height: 80px;
+    border: 5px solid #FFF;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Task__checkbox{
+    width: 30px;
+    height: 50px;
+    margin: 0 10px;
+}
+.Task__text{
+    width: 80%;
+    height: 50px;
+    min-width: 100px;
+    font-size: 14px;
+    color: #000;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+}
+.Task__button{
+    width: 80px;
+    height: 50px;
+    margin: 0 5px;
+    border: 1px solid #FFFF;
+    background: cornflowerblue;
+    color: #FFF;
+    border-radius: 5px;
+}
