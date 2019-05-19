@@ -1,0 +1,12 @@
+.Users__user{
+    padding: 8px;
+    width: 200px;
+}
+
+.Users__user:hover{
+    background-color: #eee;
+}
+
+.Users__user--active{
+    background-color: #eee;
+}

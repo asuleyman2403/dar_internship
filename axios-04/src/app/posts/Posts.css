@@ -1,0 +1,20 @@
+.posts{
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    margin: 40px 0;
+}
+.posts-title{
+    font-weight: 900;
+    font-size: 20px;
+}
+.post{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.post-title{
+    width: 100%;
+    text-align: center;
+}

@@ -37,11 +37,13 @@ class ToDoTask extends Component {
         this.props.toDelete(this.props.index);
     };
 
+
     render() {
+
         return (
             <div className="ToDoTask">
                 <input type="checkbox" className="Task__checkbox" onClick={ this.handlerCheckBoxClick }/>
-                <input type="text" id = {"text" + this.props.index} className="Task__text" value={this.state.task.text} onChange={ this.handleChange }/>
+                <input type="text" id = {"text" + this.props.index} className="Task__text" value={this.props.task.text} onChange={ this.handleChange }/>
                 <button className="Task__button button-delete" onClick={this.handleOnDelete}>Delete</button>
             </div>
         );

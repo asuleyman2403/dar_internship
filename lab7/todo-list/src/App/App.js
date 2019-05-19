@@ -10,9 +10,10 @@ class App extends React.Component {
   };
 
   handleAdd = (task) => {
-      this.setState({
-        todoList: [task, ...this.state.todoList]
-      });
+    console.log(task);
+      this.setState((state) => ({
+        todoList: [task, ...state.todoList]
+      }));
   };
 
   render() {
